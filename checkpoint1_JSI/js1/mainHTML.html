@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <link rel="stylesheet" href="./checkpoint1.css">
+</head>
+
+<body>
+    <div class="all">
+        <input id="screen" type="number" placeholder="số a">
+        <input id="screen1" type="number" placeholder="số b">
+        <input id="screen2" type="number" placeholder="kết quả">
+        <div class="number_pad">
+            <div>
+                <div class="row">
+
+                    <button onclick="so(9)">9</button>
+                    <button onclick="so(8)">8</button>
+                    <button onclick="so(7)">7</button>
+                </div>
+
+                <div class="row">
+                    <button onclick="so(6)">6</button>
+                    <button onclick="so(5)">5</button>
+                    <button onclick="so(4)">4</button>
+                    <button onclick="xoa1()">C</button>
+                </div>
+                <div class="row">
+                    <button onclick="so(3)">3</button>
+                    <button onclick="so(2)">2</button>
+                    <button onclick="so(1)">1</button>
+                    <button onclick="so(0)">0</button>
+                </div>
+
+
+                <!-- hàm onclick function(a){}|| số 9 => function(9){} || số 8 => function(8){} -->
+                <!-- bài 3 hàm nâng cấp chính là phtuc tính chu vi -->
+            </div>
+
+            <div class="all1">
+                <div class="row2">
+
+                    <button onclick="sob(9)">9</button>
+                    <button onclick="sob(8)">8</button>
+                    <button onclick="sob(7)">7</button>
+                </div>  
+
+                <div class="row2">
+                    <button onclick="sob(6)">6</button>
+                    <button onclick="sob(5)">5</button>
+                    <button onclick="sob(4)">4</button>
+                    <button onclick="xoa2()">C</button>
+                </div>
+                <div class="row2">
+                    <button onclick="sob(3)">3</button>
+                    <button onclick="sob(2)">2</button>
+                    <button onclick="sob(1)">1</button>
+                    <button onclick="sob(0)">0</button>
+
+                </div>
+            </div>
+
+
+        <div class="row1">
+            <button onclick="phepcong('+')">+</button>
+            <button onclick="pheptru('-')">-</button>
+            <button onclick="phepnhan('x')">x</button>
+            <button onclick="phepchia(':')">:</button>
+            <button onclick="xoa3()">AC</button>
+        </div>
+    </div>
+
+        <script src="./mainJS.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.all{
+    background-color: azure;
+}
+.row{
+    display: table;
+    padding-left: 50px;
+}
+.row1{
+    display: flex;
+    padding-left: 30px;
+}
+.row2{
+    display: flex;
+    padding-left: 100px;
+}
+.number_pad{
+    display: flex;
+}
